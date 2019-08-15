@@ -12,21 +12,21 @@ Some believe intelligence is gifted to a divine few. Others work really hard to 
 Approach coding like a gym workout
 
 ### Feynman Technique Summary
-Don’t fool yourself that you know something
-Explain it to someone else in simple language. ( My mate Karrel - A children’s soft toy)
-Identify areas you are having problems explaining. Go back to the source. Work through examples until you understand
-Explain in simple jargon free language to identify your base assumptions
+* Don’t fool yourself that you know something
+* Explain it to someone else in simple language. ( My mate Karrel - A children’s soft toy)
+* Identify areas you are having problems explaining. Go back to the source. Work through examples until you understand
+* Explain in simple jargon free language to identify your base assumptions
 
 ### Other Gems (Sources unknown)
-Focus your efforts on the stuff you don’t know
-Practice examples and practice recall. Don’t go straight to the answers
-Use flash cards
-Don’t beat yourself up about making mistakes
-Long term recall is formed with spaced repetition
-Note taking is often a false sense of security, fooling yourself you know a subject
-Recall is where it’s at. Do the examples
-Nobody said that get yourself into good condition would be easy
-Anything worth doing may suck in the beginning. Attitude may mean it doesn’t.
+* Focus your efforts on the stuff you don’t know
+* Practice examples and practice recall. Don’t go straight to the answers
+* Use flash cards
+* Don’t beat yourself up about making mistakes
+* Long term recall is formed with spaced repetition
+* Note taking is often a false sense of security, fooling yourself you know a subject
+* Recall is where it’s at. Do the examples
+* Nobody said that get yourself into good condition would be easy
+* Anything worth doing may suck in the beginning. Attitude may mean it doesn’t.
 
 ## Lets Begin
 Sections Contain markdown flash cards and coded examples
