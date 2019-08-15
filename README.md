@@ -3,7 +3,7 @@ If you stumble upon this repo, I hope it'll be helpful in your Computer Science 
 
 ## Why JavaScript?
 JavaScript is the vehicle. These computer science structures should translate to other coding languages. It's unlikely you'll find many npm packages here.
-One aspect is understanding the language. The other is understading how to apply it.
+One aspect is understanding the language. The other is understading how to apply it. Knowing JavaScript can lead into ReactJS and NodeJS.
 
 ## Lifelong Learning
 Some believe intelligence is gifted to a divine few. Others work really hard to gain, retain and recall it. 
