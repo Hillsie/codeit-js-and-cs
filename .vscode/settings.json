@@ -1,0 +1,22 @@
+{
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "editor.formatOnSave": true,
+    "editor.fontSize": 12,
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[html]": {
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.formatOnSave": true
+    },
+    "git.ignoreLimitWarning": true,
+    "workbench.colorCustomizations": {
+        "titleBar.activeForeground": "#fdfbfbe1",
+        "titleBar.inactiveForeground": "#fdfbfbe1",
+        "titleBar.activeBackground": "#9e3636f8",
+        "titleBar.inactiveBackground": "#9e363686",
+    }
+}
