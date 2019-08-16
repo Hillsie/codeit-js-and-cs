@@ -71,7 +71,10 @@ let aString = 'immutable string';
 aString = 'New immutable string';
 // These are two different memory locations
 ```
-<details><summary> Write some code to demonstrate why Arrays are mutable?</summary>
+</p>
+</details>
+
+<details><summary> Write code to demonstrate why Arrays are mutable?</summary>
 <p>
 ### See
 * Examples in mutableArraysExample1.js
