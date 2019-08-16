@@ -40,6 +40,7 @@ A string or number written directly into a program. These literals have not been
 
 <details><summary>Name Six Built in JavaScript Object Types?</summary>
 <p>
+
 * Array
 * Date
 * RegExp
@@ -58,7 +59,9 @@ In JavaScritp only obects and arrays are mutable
 
 <details><summary>Explain Immutability? Why is immutablility an important concept? </summary>
 <p>
-Refer to the attached code. Load it on the command line. ``` node example.js ```
+
+Refer to the attached code. Load it on the command line. 
+``` node example.js ```
 
 Immutability is how the data is referenced in the memory. Immutable data is not changed in memory, only a new reference to a new memory location is provided.
 
@@ -76,7 +79,8 @@ aString = 'New immutable string';
 
 <details><summary> Write code to demonstrate why Arrays are mutable?</summary>
 <p>
-### See
+
+ See
 * Examples in mutableArraysExample1.js
 * Examples in mutableArraysExample2.js
 </p>
@@ -86,12 +90,16 @@ aString = 'New immutable string';
 
 <details><summary> How do you make a copy of an array?</summary>
 <p>
+
 ```javascript
     a = b.slice();
 ```
 See the mutablity examples
+
 </p>
 </details>
+
+
 
 ## Free Online References
 * Marijn Haverbeke https://eloquentjavascript.net/
