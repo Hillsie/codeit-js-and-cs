@@ -1,5 +1,5 @@
 # A Computer Science Study from the JavaScript Perspective
-If you stumble upon this repo, I hope it'll be helpful in your Computer Science and JavaScript learning journey. This project contains exercises and examples using Computer Science structures starting with a review of JavaScript. The goal is to dive in with sufficient explanation.
+If you stumble upon this repo, I hope it'll be helpful in your Computer Science and JavaScript learning journey. It's designed like flash cards. This project contains exercises and examples using Computer Science structures starting with a review of JavaScript. The goal is to dive in with sufficient explanation.
 
 ## Why JavaScript?
 JavaScript is the vehicle. These computer science structures should translate to other coding languages. It's unlikely you'll find many npm packages here.

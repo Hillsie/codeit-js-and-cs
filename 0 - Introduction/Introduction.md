@@ -77,6 +77,8 @@ aString = 'New immutable string';
 </p>
 </details>
 
+## JavaScript  - Arrays
+
 <details><summary> Write code to demonstrate why Arrays are mutable?</summary>
 <p>
 
@@ -86,7 +88,27 @@ aString = 'New immutable string';
 </p>
 </details>
 
-## JavaScript  - Arrays
+<details><summary> How do you make a copy of an array?</summary>
+<p>
+
+```javascript
+    a = b.slice();
+```
+See the mutablity examples
+
+</p>
+</details>
+
+# JavaScript  - Objects
+
+<details><summary> Write code to demonstrate why Objects are mutable?</summary>
+<p>
+
+ See
+* Examples in mutableArraysExample1.js
+* Examples in mutableArraysExample2.js
+</p>
+</details>
 
 <details><summary> How do you make a copy of an array?</summary>
 <p>
