@@ -159,10 +159,12 @@ console.log(`Books: ${books} |  Mutable Books: ${mutableBooks}`);
 </summary>
 
 <p>
-JavaScript throws an error. ```TypeError: Assignment to constant variable.```
-You might want to say that the ```const``` keyword makes the variable ```books``` and ```mutableBooks``` immutable.
 
-Try the code ```mutableObjectExample2.js```
+Run `mutableExample2.js`
+
+The `console.log` returns [Object Object]. This is valid code,but the result is not what you might want to see. This is not the way to access the objects contents.
+Its a `semantic error` error to assume you'd receive the contents of the object . The syntax is correct, but the handling of the semantics of JavaScript is causing ambiguity about how JavaScript outputs object data.
+
 </p>
 </details>
 
