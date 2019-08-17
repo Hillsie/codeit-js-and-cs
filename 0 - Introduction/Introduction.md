@@ -50,7 +50,7 @@ A string or number written directly into a program. These literals have not been
 
 There are more. However, they do not appear to be often used. I haven't seen them too often in GitHub Projects.
 
-In JavaScritp only obects and arrays are mutable
+In JavaScritpt only objects and arrays are mutable
 
  > In computer science, an object is a value in memory which is possibly referenced by an identifier.
   - Mozilla
@@ -60,12 +60,13 @@ In JavaScritp only obects and arrays are mutable
 <details><summary>Explain Immutability? Why is immutablility an important concept? </summary>
 <p>
 
-Refer to the attached code. Load it on the command line. 
+Side note: A quick way to run examples  is to load them from the command line like this. You'll need node installed. 
+
 ``` node example.js ```
 
-Immutability is how the data is referenced in the memory. Immutable data is not changed in memory, only a new reference to a new memory location is provided.
+The Immutability describes how the primitives, variables and objects behave in the memory. Immutable data is not changed in memory, only a new reference to a new memory location is provided.
 
-Objects and Arrays are mutable. This means the actual memory location is changed
+Objects and Arrays are mutable. This data in the memory is the same place, even if it appears to be assigned to different variables.
 
 JavaScript primitives are immutable. This means that if a new value is created, it exists in a new memory location, and the original value left in place. It would be garbage collected at a point in time if not assigned to a reference. 
 
@@ -79,7 +80,7 @@ aString = 'New immutable string';
 
 ## JavaScript  - Arrays
 
-<details><summary> Write code to demonstrate why Arrays are mutable?</summary>
+<details><summary> Write code to demonstrate why arrays are mutable?</summary>
 <p>
 
  See
@@ -88,42 +89,87 @@ aString = 'New immutable string';
 </p>
 </details>
 
-<details><summary> How do you make a copy of an array?</summary>
-<p>
+## JavaScript  - Objects
 
-```javascript
-    a = b.slice();
-```
-See the mutablity examples
-
-</p>
-</details>
-
-# JavaScript  - Objects
-
-<details><summary> Write code to demonstrate why Objects are mutable?</summary>
+<details><summary> Write code to demonstrate why arrays are mutable?</summary>
 <p>
 
  See
 * Examples in mutableArraysExample1.js
 * Examples in mutableArraysExample2.js
+
+Notice that if you have an ```array1 = array2``` and you modify array2, that array1 contents are also modified. This is an example of array mutability.
+Begs the question, how do you make a copy of an array? Next question ....
 </p>
 </details>
 
-<details><summary> How do you make a copy of an array?</summary>
+<details><summary> How do you make a copy of an array? Name an ECMAScript way of copying an array?</summary>
 <p>
 
 ```javascript
     a = b.slice();
 ```
-See the mutablity examples
+See the mutablity examples. There are only a few ECMAScript ways to override the mutibilty of arrays.
+slice is one. 
 
+With ECMAScript use the spread operator.
+</p>
+</details>
+
+<details><summary> Read and explain the error here? Why does this code fail?
+<p>
+
+```javascript
+const books = { thriller: "Christine", comedy: "Hitchhikers guide to the galaxy", sciencefiction: "The invisible man" };
+const mutableBooks = {};
+
+mutableBooks = books;
+
+console.log(`Books: ${books} |  Mutable Books: ${mutableBooks}`);
+```
+</p>
+
+</summary>
+
+<p>
+JavaScript throws an error. ```TypeError: Assignment to constant variable.```
+You might want to say that the ```const``` keyword makes the variable ```books``` and ```mutableBooks``` immutable? 
+Is that a correct or incorrect statement? Chenck out the example ```constMutable.js```
+
+This is an example of `static semantic` error. It's not meaningful to try assign a new value to another constant that has been defined.
+
+Try the code ```mutableObjectExample1.js```
+
+</p>
+</details>
+
+<details><summary> What happens when you run this code? Remember, do it before running the code.
+<p>
+
+```javascript
+let books = { thriller: "Christine", comedy: "Hitchhikers guide to the galaxy", sciencefiction: "The invisible man" };
+let mutableBooks = {};
+
+mutableBooks = books;
+
+console.log(`Books: ${books} |  Mutable Books: ${mutableBooks}`);
+```
+</p>
+
+</summary>
+
+<p>
+JavaScript throws an error. ```TypeError: Assignment to constant variable.```
+You might want to say that the ```const``` keyword makes the variable ```books``` and ```mutableBooks``` immutable.
+
+Try the code ```mutableObjectExample2.js```
 </p>
 </details>
 
 
 
-## Free Online References
+## Free Online References and Resources
+* So many. Just search.
 * Marijn Haverbeke https://eloquentjavascript.net/
 * https://developer.mozilla.org/en-US/docs/Glossary/Primitive
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
