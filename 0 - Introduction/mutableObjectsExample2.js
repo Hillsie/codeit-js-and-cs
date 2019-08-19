@@ -1,6 +1,10 @@
 // Give a reason why it fails before running this code. Why does it it fail? 
 
-let books = { thriller: "Christine", comedy: "Hitchhikers guide to the galaxy", sciencefiction: "The invisible man" };
+let books = {
+    thriller: "Christine",
+    comedy: "Hitchhikers guide to the galaxy",
+    sciencefiction: "The invisible man"
+};
 let mutableBooks = {};
 
 mutableBooks = books;

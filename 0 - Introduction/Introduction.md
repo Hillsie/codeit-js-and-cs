@@ -89,6 +89,53 @@ aString = 'New immutable string';
 </p>
 </details>
 
+<details><summary> Name 5 methods for manipulating array values?</summary>
+<p>
+
+```javaScript
+  array.push('new-value');
+  array.pop(); //pops off the last one on the end
+  array.shift(); // shifts the first on off the front
+  array.sort(); // Converts to a string then sorts based on UTF-16 Codes -- Basically sorts by text order. Gotcha sorting numbers as 1000 would come before 2. Sorts original array.
+  array.unshift(4,5); //adds to the front of the array;
+```
+Read More about UTF - 16
+https://en.wikipedia.org/wiki/UTF-16
+
+As of this text update, there are 36 array methods (a few depricated). A complete list 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#
+</p>
+</details>
+
+<details><summary> Write an ECMAScript arrow function example using `Array.map()` and `Array.reduce()` ?</summary>
+<p>
+ run the `arrowMapReduce.js` example to output the results for the code below
+
+ ```javaScript
+const mySpecialNumbers = [1, 2, 3, 4, 5, 6];
+
+//Basic arrow function
+mySpecialNumbers.map((a, i) => (console.log(`value: ${a} index: ${i}`)));
+
+// Creating a funcy function out of an arrow function
+const myNewSpecialFunc = (myArray) => (myArray.map((a, i) => (console.log(`value: ${a + i} index: ${i}`))));
+
+myNewSpecialFunc(mySpecialNumbers)
+
+// looping an array
+const fruit = ['Apples', 'Peaches', 'Oranges', 'Bananas'];
+
+fruit.forEach(function (item, index, array) {
+    console.log(item, index, array);
+})
+
+const position = fruit.indexOf('Bananas');
+console.log(`The position of Bananas: ${position}`);
+```
+
+</p>
+</details>
+
 ## JavaScript  - Objects
 
 <details><summary> Write code to demonstrate why arrays are mutable?</summary>

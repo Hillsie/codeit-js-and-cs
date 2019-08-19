@@ -25,8 +25,8 @@ Approach coding like a gym workout
 * Long term recall is formed with spaced repetition
 * Note taking is often a false sense of security, fooling yourself you know a subject
 * Recall is where it’s at. Do the examples
-* Nobody said that get yourself into good condition would be easy
-* Anything worth doing may suck in the beginning. Attitude may mean it doesn’t.
+* Nobody said that getting yourself into condition would be easy. Everyone would do it if it was easy
+* Anything worth while doing may suck in the beginning
 
 ## Lets Begin
 Sections Contain markdown flash cards and coded examples
