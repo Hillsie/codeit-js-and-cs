@@ -18,8 +18,10 @@ fruit.forEach(function (item, index, array) {
 const position = fruit.indexOf('Bananas');
 console.log(`The position of Bananas: ${position}`);
 
-// old ways of accessing elements of an array  via looping demonstrates index of an array
+// older way of accessing elements of an array  via looping demonstrates index of an array
 // This should be included in looping section
 for (let x = 0; x < mySpecialNumbers.length; x++) {
     console.log(mySpecialNumbers[x]);
 }
+
+// Reduce WIP.

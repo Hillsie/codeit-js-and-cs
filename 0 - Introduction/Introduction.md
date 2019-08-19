@@ -4,7 +4,7 @@
 <p>
 
 #### literals are exact values in a program
-```javascript
+```JavaScript
 console.log("hello world!");
 console.log(7);
 ```
@@ -92,7 +92,7 @@ aString = 'New immutable string';
 <details><summary> Name 5 methods for manipulating array values?</summary>
 <p>
 
-```javaScript
+```JavaScript
   array.push('new-value');
   array.pop(); //pops off the last one on the end
   array.shift(); // shifts the first on off the front
@@ -111,7 +111,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 <p>
  run the `arrowMapReduce.js` example to output the results for the code below
 
- ```javaScript
+ ```JavaScript
 const mySpecialNumbers = [1, 2, 3, 4, 5, 6];
 
 //Basic arrow function
@@ -145,7 +145,7 @@ console.log(`The position of Bananas: ${position}`);
 * Examples in mutableArraysExample1.js
 * Examples in mutableArraysExample2.js
 
-Notice that if you have an ```array1 = array2``` and you modify array2, that array1 contents are also modified. This is an example of array mutability.
+Notice that if you have an `array1 = array2` and you modify array2, that array1 contents are also modified. This is an example of array mutability.
 Begs the question, how do you make a copy of an array? Next question ....
 </p>
 </details>
@@ -153,7 +153,7 @@ Begs the question, how do you make a copy of an array? Next question ....
 <details><summary> How do you make a copy of an array? Name an ECMAScript way of copying an array?</summary>
 <p>
 
-```javascript
+```JavaScript
     a = b.slice();
 ```
 See the mutablity examples. There are only a few ECMAScript ways to override the mutibilty of arrays.
@@ -166,8 +166,12 @@ With ECMAScript use the spread operator.
 <details><summary> Read and explain the error here? Why does this code fail?
 <p>
 
-```javascript
-const books = { thriller: "Christine", comedy: "Hitchhikers guide to the galaxy", sciencefiction: "The invisible man" };
+```JavaScript
+const books = { thriller: "Christine", 
+  comedy: "Hitchhikers guide to the galaxy", 
+  sciencefiction: "The invisible man" 
+  };
+
 const mutableBooks = {};
 
 mutableBooks = books;
@@ -179,9 +183,10 @@ console.log(`Books: ${books} |  Mutable Books: ${mutableBooks}`);
 </summary>
 
 <p>
-JavaScript throws an error. ```TypeError: Assignment to constant variable.```
-You might want to say that the ```const``` keyword makes the variable ```books``` and ```mutableBooks``` immutable? 
-Is that a correct or incorrect statement? Chenck out the example ```constMutable.js```
+
+JavaScript throws an error. ` TypeError: Assignment to constant variable.`
+You might want to say that the ` const` keyword makes the variable `books` and `mutableBooks` immutable? 
+Is that a correct or incorrect statement? Chenck out the example ``constMutable.js`
 
 This is an example of `static semantic` error. It's not meaningful to try assign a new value to another constant that has been defined.
 
@@ -190,11 +195,14 @@ Try the code ```mutableObjectExample1.js```
 </p>
 </details>
 
-<details><summary> What happens when you run this code? Remember, do it before running the code.
+<details><summary> What happens when you run this code? Try it before running the code. Explain why it happens?
 <p>
 
-```javascript
-let books = { thriller: "Christine", comedy: "Hitchhikers guide to the galaxy", sciencefiction: "The invisible man" };
+```JavaScript
+let books = { thriller: "Christine", 
+    comedy: "Hitchhikers guide to the galaxy", 
+    sciencefiction: "The invisible man" 
+    };
 let mutableBooks = {};
 
 mutableBooks = books;
@@ -212,6 +220,12 @@ Run `mutableExample2.js`
 The `console.log` returns [Object Object]. This is valid code,but the result is not what you might want to see. This is not the way to access the objects contents.
 Its a `semantic error` error to assume you'd receive the contents of the object . The syntax is correct, but the handling of the semantics of JavaScript is causing ambiguity about how JavaScript outputs object data.
 
+This is related to template strings. Include this line to the code.
+
+```JavaScript
+console.log(mutableBooks);
+console.log(books);
+```
 </p>
 </details>
 
