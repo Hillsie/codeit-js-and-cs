@@ -107,7 +107,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 </p>
 </details>
 
-<details><summary> Write an ECMAScript arrow function example using `Array.map()` and `Array.reduce()` ?</summary>
+<details><summary> Write an ECMAScript arrow function example using Array.map() and Array.reduce()  ? </summary>
 <p>
  run the `arrowMapReduce.js` example to output the results for the code below
 
@@ -190,7 +190,7 @@ Is that a correct or incorrect statement? Chenck out the example ``constMutable.
 
 This is an example of `static semantic` error. It's not meaningful to try assign a new value to another constant that has been defined.
 
-Try the code ```mutableObjectExample1.js```
+Try the code `mutableObjectExample1.js`
 
 </p>
 </details>
