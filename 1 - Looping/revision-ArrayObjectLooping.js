@@ -105,3 +105,6 @@ for (const [key, val] of Object.entries(dogBreed)) {
         console.log('Aussie! Aussie! Aussie!')
     }
 }
+
+// Example of direct manipulation
+[0, 1, 2, 3, 4].reduce((accumulator, currentValue, currentIndex, array) => accumulator + currentValue);
