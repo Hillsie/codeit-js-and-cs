@@ -1,6 +1,6 @@
 ## Section Objectives
-How can we explain the efficiency of a program
-... If you are reading thig. Note to you. I'm going into the dark a bit as I need to prepare for an interivew... might be a while before I have time for this. About a month ...
+How can we explain the efficiency of a program ?
+... If you are reading thig. Note to you. I'm going into the dark a bit as I need to prepare for an interivew... might be a while before I have time for this.
 
 <details><summary>Why is simply measuring a program with timmers not a suitable way of understanding it's efficiency?</summary>
 <p>
