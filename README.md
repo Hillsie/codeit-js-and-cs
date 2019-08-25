@@ -30,3 +30,8 @@ Approach coding like a gym workout
 
 ## Lets Begin
 Sections Contain markdown flash cards and coded examples
+
+## References
+
+* This repository uses many examples from but in JavaScript
+ https://www.edx.org/course/6-00-1x-introduction-to-computer-science-and-programming-using-python-3

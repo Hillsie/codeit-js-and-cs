@@ -229,6 +229,48 @@ console.log(books);
 </p>
 </details>
 
+<details><summary> Some JavaScript Quirks - Guess the the answers to the following comparisons ?
+<p>
+
+```JavaScript
+console.log(`${(0.1 + 0.2)}`);
+console.log(`${(0.1 + 0.2) == 0.3}`);
+console.log(`${(0.1 + 0.2) === 0.3}`);
+console.log(`${(0.1 + 0.2).toFixed(2) === 0.3}`);
+console.log(`${(0.1 + 0.2).toFixed(2) == 0.3}`);
+console.log(`${0.3 == '0.3'}`);
+console.log(`${0.3 === '0.3'}`);
+console.log(`${(0.1 + 0.2).toPrecision(2) == 0.3}`);
+console.log(`${(0.1 + 0.2).toPrecision(2) === 0.3}`);
+console.log(`${(0.1 + 0.2).toPrecision(2)}`);
+console.log(`${parseInt((0.1 + 0.2).toPrecision(2))}`);
+console.log(`${parseFloat((0.1 + 0.2).toPrecision(2))}`);
+console.log(`${parseFloat((0.1 + 0.2).toPrecision(2)) === 0.3}`);
+console.log(`${parseFloat((0.1 + 0.2).toPrecision(2)) === 0.3}`);
+```
+</p>
+</summary>
+<p>
+(0.1 + 0.2):  Answer: 0.30000000000000004 <br>
+(0.1 + 0.2) == 0.3 :  Answer: false <br>
+(0.1 + 0.2) === 0.3 :  Answer: false <br>
+(0.1 + 0.2).toFixed(2) === 0.3 :  Answer: false <br>
+(0.1 + 0.2).toFixed(2) == 0.3 :  Answer: true <br>
+0.3 == '0.3' :  Answer: true <br>
+0.3 === '0.3' :  Answer: false <br>
+(0.1 + 0.2).toPrecision(2) == 0.3 :  Answer: true <br>
+(0.1 + 0.2).toPrecision(2) === 0.3 :  Answer: false <br>
+(0.1 + 0.2).toPrecision(2) :  Answer: 0.30 <br>
+parseInt((0.1 + 0.2).toPrecision(2)) :  Answer: 0 <br>
+parseFloat((0.1 + 0.2).toPrecision(2)) :  Answer: 0.3 <br>
+parseFloat((0.1 + 0.2).toPrecision(2)) === 0.3 :  Answer: true <br>
+AND Finally. If you Start the node REPL directly, like this <br>
+> node <br>
+parseFloat(0.1 + 0.2) === 0.3 :  Answer: False <br>
+
+but if you run it with > node javaScriptAndNumbersGrrr.js answer: true 
+</p>
+</details>
 
 
 ## Free Online References and Resources
