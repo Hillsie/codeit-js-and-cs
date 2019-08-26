@@ -1,4 +1,5 @@
 // Example of exponential complexity algorithm 
+// Could shortcut and say that  when a double recursion is made, this an example of exponential complexity.
 function fibonacci(n) {
     if (n === 0) {
         return 0;
