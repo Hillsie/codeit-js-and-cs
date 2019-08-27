@@ -3,8 +3,10 @@
 This section covers some useful algorithms. Some algorithms improve program efficiency. Think of these as clever ways to write code to get an answer sooner. They're based on logic and ground in math. Some alorithms ordering information into logical groupings so that information can be found sooner. 
 
 <details><summary> Write a bisection search algorithm to find a guessed number between 0 and 1000 in less than 15 guesses?
-No need to make it complex;
+No need to make it complex; Try it, then recall it.
 </summary>
+Solution adapted to work with JavaScript from the Edex.org :
+``` MITx: 6.00.1x Introduction to Computer Science and Programming Using Python``` 
 
 ```JavaScript
  function bisectionSearch(answer) {
@@ -47,9 +49,10 @@ console.log(bisectionSearch(787));
 
 ```
 <p>
-Bisection search is an algorithm of the O(log(n)) order of complexity. It's part of a group of divide and conquer algorithms.
+Bisection search is an algorithm of the O(log(n)) order of complexity. It's part of a group of divide and conquer algorithms. This should work for on any problems that are ordered.
 
-Simplified way of recall the bisection search
+
+Simplified to recall the bisection search
 1. Guess a midpoint 
 2. Check each guess against Epsilon (the accuracy). The while loop does this.
 3. If the midpoint is too high, this becomes the new high point

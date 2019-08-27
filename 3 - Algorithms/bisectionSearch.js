@@ -34,7 +34,9 @@ function bisectionSearch(answer) {
 
     return guessedNumber.toFixed(0);
 };
-
+// Couple of test cases
 console.log(bisectionSearch(323));
 console.log(bisectionSearch(500));
 console.log(bisectionSearch(787));
+console.log(bisectionSearch(0));
+console.log(bisectionSearch(1000));

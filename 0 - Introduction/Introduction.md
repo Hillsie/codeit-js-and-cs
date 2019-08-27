@@ -250,6 +250,7 @@ console.log(`${parseFloat((0.1 + 0.2).toPrecision(2)) === 0.3}`);
 ```
 </p>
 </summary>
+
 <p>
 (0.1 + 0.2):  Answer: 0.30000000000000004 <br>
 (0.1 + 0.2) == 0.3 :  Answer: false <br>
@@ -268,7 +269,28 @@ AND Finally. If you Start the node REPL directly, like this <br>
 > node <br>
 parseFloat(0.1 + 0.2) === 0.3 :  Answer: False <br>
 
-but if you run it with > node javaScriptAndNumbersGrrr.js answer: true 
+but if you run it with > node javaScriptAndNumbers.js answer: true 
+</p>
+</details>
+
+<details><summary>Why is the comparison of numbers a challenge? What is a more useful way of comparing numbers?</summary>
+<p>
+
+#### Computers utilise binary to convert decimal to a numbers and visa versa.
+Thats why we may end up with floating point numbers that have a whole lot of trailing values after the decimal point
+A better way of comparing numbers is to compare it to a resolution. This can be done by using EPSILON.
+This way you'll know your answer is pretty close to the resolution of EPSILON.
+This is the prefered option rather than trying to compare numbers as ```x === y```
+Something I need to constantly remind myself after I forget it :-)
+
+```JavaScript
+const EPSILON = 0.01
+// If you wanted to find out if your answer is close to being a number
+// you could do this by using something like this ... too instead of the previous examples.
+ console.log( Math.abs(3.00004 - 3 ) <= EPSILON);
+ console.log( Math.abs(2.9999 - 3 ) <= EPSILON);
+```
+
 </p>
 </details>
 
