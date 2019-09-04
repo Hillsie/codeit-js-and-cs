@@ -1,6 +1,5 @@
 // Newton-Raphson will apply to any polynomial
-// Following example is academic and used to find square root of a number
-// I haven't yet figured out how to adapt this to finding an item in a list
+// Following example is academic, however, Newton-Rapson is used to find square root of a number
 // General appproximation algorithm to find roots of a polynomial in one variable
 // Approximation to the root  is g - p(g)/p'(g)
 // simple case cx^2 + k; first derivative 2x or given g for a root, a guess g - (g^2 - k) / 2g
