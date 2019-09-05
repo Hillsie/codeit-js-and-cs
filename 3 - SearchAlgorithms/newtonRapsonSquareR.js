@@ -1,4 +1,5 @@
-// Newton-Raphson will apply to any polynomial
+// Newton-Raphson applys to any polynomial
+// Usefule in finding the root of a number
 // Following example is academic, however, Newton-Rapson is used to find square root of a number
 // General appproximation algorithm to find roots of a polynomial in one variable
 // Approximation to the root  is g - p(g)/p'(g)
