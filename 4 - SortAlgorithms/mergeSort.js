@@ -1,14 +1,16 @@
-/*  Merge sort is an order O(n log n) complexity algorithm, worst case. Best case 2 elements and 0(1)
- The decision to sort data is one  that should be considered based on the long term benefit. Think of a single sort 
- occuring once and there after insertions occur with a modified search algorithm. This means,  the cost is 
- spread over time and reduces based on how many times  a search is used. ==> Amortised.
- Search algorithms rely on sorted data.
+/* Merge sort is an order O(n log n) complexity algorithm, worst case. Best case 2 elements and 0(1)
+The decision to sort data is one  that should be considered based on the long term benefit. Think of a single sort
+occuring once and thereafter insertions occur with a modified search algorithm. This means,  the cost is
+spread over time and reduces based on how many times  a search is used. ==> Amortised.
+Search algorithms rely on sorted data.
 
- This algorithim is more efficient than bubble and selection sort which are quadratic O(n^c)
- A merge sort needs to go through the entire set and uses recursion.
+This algorithm is more efficient than bubble and selection sort which are quadratic O(n^c)
+A merge sort needs to go through the entire set and uses recursion.
 
- This algorithm  was invented in 1945 by Jon von Neuman and is a divide and conquer algorithm
- This I have translated this JavaScript version from a Python version, thanks Professor Guttag MIT. */
+This algorithm  was invented in 1945 by Jon von Neuman and is a divide and conquer algorithm
+This I have translated this JavaScript version from a Python version source Professor Guttag and 
+Professor Grimson MIT.
+*/
 
 
 // Test the merge part by uncommenting these two lines.
