@@ -1,4 +1,4 @@
-// Think of closures as JS remembering a variable
+// Think of closures as JS remembering an assigned variable;
 // example
 
 function rememberme(n) {
@@ -10,4 +10,4 @@ function rememberme(n) {
 
 const multiplyby10 = rememberme(10);
 
-console.log(`Themultiplyby10(5)`);
+console.log(`${multiplyby10(5)}`);

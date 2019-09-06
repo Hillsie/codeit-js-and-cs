@@ -1,7 +1,7 @@
 class AuthDeclaration {
-    constructor(authName, genre) {
+    constructor(authName, type) {
         this.authName = authName;
-        this.genre = genre || '';
+        this.type = type || '';
         this.book = [];
     }
     authName() {
@@ -9,15 +9,16 @@ class AuthDeclaration {
         console.log(`Authors Name: ${this.authName}`);
     }
     genre() {
-        // created a method on the class
-        console.log(`I write ${this.genre} type books.`);
+        // created a method on the class. Can't call method same as variable;
+        console.log(`I write ${this.type} type books.`);
+        return this.type
     }
     static greet() {
         // only lives on the Declaration. Can't be accessed after new
         return (`Authors love to write, Coders love to code !!`);
     }
     get info() {
-        return `Author: ${this.authName}, Genre: ${this.genre}`;
+        return `Author: ${this.authName}, type: ${this.type}`;
     }
     set books(value) {
         // can't use name book, hence book as set value;
@@ -36,10 +37,10 @@ StevenKing.books = 'It';
 StevenKing.books = 'Christine';
 
 
-console.log(StevenKing.genre);
+console.log(StevenKing.genre());
 console.log(StevenKing.info);
 console.log(StevenKing.books)
-console.log(HGWells.genre);
+console.log(HGWells.genre());
 console.log(HGWells.books);
 console.log(AuthDeclaration.greet()); // only works on the original class;
 

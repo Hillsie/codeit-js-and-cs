@@ -35,3 +35,9 @@ Sections Contain markdown flash cards and coded examples
 
 * This repository uses many examples from but in JavaScript
  https://www.edx.org/course/6-00-1x-introduction-to-computer-science-and-programming-using-python-3
+
+ ## License
+ 
+ MIT - Use it freely. If you use the material, be good and reference the source.
+ 
+ Have improvements or suggestion? Raise a change request.
