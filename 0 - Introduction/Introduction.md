@@ -48,7 +48,7 @@ A string or number written directly into a program. These literals have not been
 * Set and WeakSet
 * Function
 
-There are more. However, they do not appear to be often used. I haven't seen them too often in GitHub Projects.
+There are more. However, they do not appear to be often used. Personally, haven't seen them too often in GitHub Projects.
 
 In JavaScritpt only objects and arrays are mutable
 

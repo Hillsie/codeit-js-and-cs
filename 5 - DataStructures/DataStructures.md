@@ -13,3 +13,20 @@ This code does not mess with the prototype
 
 </p>
 </details>
+
+## Binary Trees
+
+<details><summary> Name and describe the three binary tree traversals ?</summary>
+<p>
+
+Binary Trees are O(n) as you need to visit every node.
+
+#### Three Traversals
+* PreOrder NLR
+* InOrder LNR Binary Search tree
+* PostOrder LRN
+
+
+
+</p>
+</details>
