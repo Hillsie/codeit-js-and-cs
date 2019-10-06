@@ -80,12 +80,13 @@ aString = 'New immutable string';
 
 ## JavaScript  - Arrays
 
-<details><summary> Write code to demonstrate why arrays are mutable?</summary>
+<details><summary> Write code to demonstrate why arrays are mutable? Explain why `mutableArraysExample3.js` does not follow the mutable rule?</summary>
 <p>
 
  See
 * Examples in mutableArraysExample1.js
 * Examples in mutableArraysExample2.js
+* Examples in mutableArraysExample3.js
 </p>
 </details>
 
@@ -138,12 +139,13 @@ console.log(`The position of Bananas: ${position}`);
 
 ## JavaScript  - Objects
 
-<details><summary> Write code to demonstrate why arrays are mutable?</summary>
+<details><summary> Write code to demonstrate why objects are mutable?</summary>
 <p>
 
  See
-* Examples in mutableArraysExample1.js
-* Examples in mutableArraysExample2.js
+* Examples in mutableObjectsExample1.js
+* Examples in mutableObjectsExample2.js
+* Examples in mutableObjectsExample3.js
 
 Notice that if you have an `array1 = array2` and you modify array2, that array1 contents are also modified. This is an example of array mutability.
 Begs the question, how do you make a copy of an array? Next question ....
@@ -229,7 +231,7 @@ console.log(books);
 </p>
 </details>
 
-<details><summary> Some JavaScript Quirks - Guess the the answers to the following comparisons ?
+<details><summary> Understanding Numbers in JavaScript - Guess the the answers to the following comparisons ?
 <p>
 
 ```JavaScript
@@ -248,6 +250,8 @@ console.log(`${parseFloat((0.1 + 0.2).toPrecision(2))}`);
 console.log(`${parseFloat((0.1 + 0.2).toPrecision(2)) === 0.3}`);
 console.log(`${parseFloat((0.1 + 0.2).toPrecision(2)) === 0.3}`);
 ```
+
+### Why?
 </p>
 </summary>
 
@@ -265,11 +269,8 @@ console.log(`${parseFloat((0.1 + 0.2).toPrecision(2)) === 0.3}`);
 parseInt((0.1 + 0.2).toPrecision(2)) :  Answer: 0 <br>
 parseFloat((0.1 + 0.2).toPrecision(2)) :  Answer: 0.3 <br>
 parseFloat((0.1 + 0.2).toPrecision(2)) === 0.3 :  Answer: true <br>
-AND Finally. If you Start the node REPL directly, like this <br>
-> node <br>
 parseFloat(0.1 + 0.2) === 0.3 :  Answer: False <br>
 
-but if you run it with > node javaScriptAndNumbers.js answer: true 
 </p>
 </details>
 

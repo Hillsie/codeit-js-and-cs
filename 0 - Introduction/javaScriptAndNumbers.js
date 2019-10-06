@@ -11,4 +11,5 @@ console.log(`(0.1 + 0.2).toPrecision(2) : Guess? Answer: ${(0.1 + 0.2).toPrecisi
 console.log(`parseInt((0.1 + 0.2).toPrecision(2)) : Guess? Answer: ${parseInt((0.1 + 0.2).toPrecision(2))}`);
 console.log(`parseFloat((0.1 + 0.2).toPrecision(2)) : Guess? Answer: ${parseFloat((0.1 + 0.2).toPrecision(2))}`);
 console.log(`parseFloat((0.1 + 0.2).toPrecision(2)) === 0.3 : Guess? Answer: ${parseFloat((0.1 + 0.2).toPrecision(2)) === 0.3}`);
-console.log(`parseFloat(0.1 + 0.2) === 0.3 : Guess? Answer: ${parseFloat((0.1 + 0.2).toPrecision(2)) === 0.3}`);
+console.log(`parseFloat(0.1 + 0.2).toPrecision(2) === 0.3 : Guess? Answer: ${parseFloat((0.1 + 0.2).toPrecision(2)) === 0.3}`);
+console.log(`parseFloat(0.1 + 0.2) === 0.3 : Guess? Answer: ${parseFloat(0.1 + 0.2) === 0.3}`);

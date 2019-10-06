@@ -1,3 +1,5 @@
+
+
 const somecolors = ['red', 'amber', 'blue', 'green'];
 
 const newcolorArray = somecolors;
