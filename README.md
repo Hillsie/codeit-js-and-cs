@@ -2,7 +2,7 @@
 Revision resource with examples.
 
 ## Lifelong Learning
-The purpose is for revision and recall and reference for when I forget. I'm human.
+The purpose is for revision, recall and reference for when I forget. I'm human.
 
 ### Some learning gems I've picked up along the way
 
