@@ -1,4 +1,26 @@
-## JavaScript  - Level 1
+## JavaScript  - Some more stuff to grasp
+
+
+<details><summary>Give and example of how var can leak out of a scope?</summary>
+<p>
+
+####  FYI, Beanie is my dog
+```JavaScript
+    const BEANIES_BYTE = 10;
+    let beanieYrs = 9;
+    var beanies_byte = 10;
+    if (beanieYrs < 10){
+      const BEANIES_BYTE = 15;
+      var beanies_byte = 15;
+      console.log(`let BEANIES_BYTE is ${BEANIES_BYTE} and var beanies_byte is ${beanies_byte}`);
+    }; 
+   console.log(`let BEANIES_BYTE is ${BEANIES_BYTE} and var beanies_byte is ${beanies_byte}`);
+    
+```
+Notice, that outside of the block, Beanie's byte stays at 15 as the inner var declaration changes the value of the outer var value.
+
+</p>
+</details>
 
 <details><summary>What's a literal?</summary>
 <p>
@@ -59,10 +81,6 @@ In JavaScritpt only objects and arrays are mutable
 
 <details><summary>Explain Immutability? Why is immutablility an important concept? </summary>
 <p>
-
-Side note: A quick way to run examples  is to load them from the command line like this. You'll need node installed. 
-
-``` node example.js ```
 
 The Immutability describes how the primitives, variables and objects behave in the memory. Immutable data is not changed in memory, only a new reference to a new memory location is provided.
 
@@ -301,3 +319,4 @@ const EPSILON = 0.01
 * Marijn Haverbeke https://eloquentjavascript.net/
 * https://developer.mozilla.org/en-US/docs/Glossary/Primitive
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+* More on Var, Let and Const https://mathiasbynens.be/notes/es6-const 
